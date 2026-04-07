@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    background-color: #F8F9FA;
+    font-family: 'Lexend';
+}
+
+footer{
+    background-color: #0F172A;
+    padding: 20px 30px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+iconify-icon{
+    vertical-align: middle;
+    font-size: 1.25rem;
+}
+
+.footer-info{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+footer section{
+    width: 20rem;
+    margin-bottom: 4rem;
+}
+
+footer button{
+    width: 2.5em;
+    height: 2.5em;
+    border: 0;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #1B2234;
+    color: #F8F9FA;
+}
+
+footer button:hover{
+    background-color: #E86F2C;
+    transition: all 0.3s ease-in;
+}
+
+footer h4{
+    color: #F8F9FA;
+}
+
+footer section p{
+    color: #62748e;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #62748e;
+}
+
+.footer-links a:hover{
+    color: #E86F2C;
+    transition: all 0.2s ease-in;
+}
+
+footer strong{
+    color: #ff8800;
+    font-weight: 800;
+}
+
+footer hr{
+    border-color: #62748e;
+}
+
+footer small{
+    color: #62748e;
+}
+
+.copy{
+    text-align: center;
+}
