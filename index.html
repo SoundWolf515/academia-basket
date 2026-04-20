@@ -13,34 +13,143 @@
         content="Fundado en 1981 por el Prof. Rafaél Reyna. Desde sus inicios participó en la Liga Distrital Mixta de Basketball de Cajamarca, llegando a participar siempre hasta las etapas finales, conocido como Playoffs." />
     <meta property="og:image" content="img/Logotipo2.png" />
     <meta property="og:image:alt" content="Logotipo de la academia" />
+    <link rel="stylesheet" href="header_footer.css" />
     <link rel="stylesheet" href="landing.css" />
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <h1>Club Deportivo InterCECA</h1>
+        <nav>
+            <a href="/" class="logo"> Club Deportivo InterCECA </a>
+            <ul>
+                <li><a href="#">Programas</a></li>
+                <li><a href="#">Entrenadores</a></li>
+                <li><a href="#">Sedes</a></li>
+            </ul>
+            <a class="inscription" href="#">¡Inscríbete!</a>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>Noticias relevantes</h2>
-            <!--Carrusel con noticias-->
+        <section class="hero">
+            <span>ESTÁNDAR PROFESIONAL</span>
+            <h1>
+                DOMINA LA <br />CANCHA, <br />
+                <strong>FORJA TU FUTURO</strong>
+            </h1>
+            <p>
+                Entrenamiento de élite diseñado para transformar tu juego y
+                desarrollar la mentalidad de un campeón dentro y fuera de la cancha.
+            </p>
+            <a href="#">Ver Programas</a>
         </section>
-        <section>
-            <h2>Nuestros horarios</h2>
-            <!--Tabla con horarios-->
+        <section class="phylosophy">
+            <div class="photo-container">
+                <img src="/img/Logotipo.jpg" />
+            </div>
+            <div class="text-block">
+                <h2>NUESTRA FILOSOFÍA</h2>
+                <p>
+                    En InterCECA, no solo enseñamos tácticas de juego. Construimos el
+                    carácter a través de la <strong>precisión cinética</strong> y la
+                    disciplina. Nuestro enfoque integra el desarrollo físico de alto
+                    rendimiento con la formación en valores fundamentales.
+                </p>
+                <div class="links">
+                    <a href="#">
+                        <iconify-icon icon="material-symbols:diversity-3"></iconify-icon>
+                        <h4>Nuestra política anti-discriminación</h4>
+                        <p>Garantizamos un espacio seguro para nuestros deportistas.</p>
+                    </a>
+                    <a href="#">
+                        <iconify-icon icon="mdi:medal"></iconify-icon>
+                        <h4>Nuestro reglamento</h4>
+                        <p>Estándares profesionales en toda la sesión.</p>
+                    </a>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Logros de la academia</h2>
-            <!--Lista de trofeos relevantes-->
+        <section class="programs">
+            <h2>NUESTROS PROGRAMAS</h2>
+            <strong>Diseñados para cada etapa de tu desarrollo deportivo.</strong>
+            <div class="progress">
+                <div class="kids">
+                    <img src="img/kids.jpg" />
+                    <div class="card-content">
+                        <hr />
+                        <h3>ACADEMIA KIDS</h3>
+                        <p>
+                            Iniciación deportiva centrada en la coordinación, fundamentos
+                            básicos y diversión.
+                        </p>
+                        <a href="#">Saber más 🡢</a>
+                    </div>
+                </div>
+                <div class="elite">
+                    <hr />
+                    <h3>ENTRENAMIENTO ÉLITE</h3>
+                    <p>
+                        Programa de alto rendimiento para atletas competitivos que buscan
+                        perfeccionar su técnica, potencia física y visión de juego.
+                    </p>
+                    <a href="#">SOLICITAR EVALUACIÓN</a>
+                </div>
+            </div>
+            <div class="campus">
+                <div class="info">
+                    <strong>INSCRIPCIONES ABIERTAS</strong>
+                    <h3>CAMPUS DE VERANO</h3>
+                    <p>
+                        Una experiencia inmersiva de 4 semanas con entrenadores
+                        internacionales, competiciones y sesiones de análisis de video.
+                    </p>
+                </div>
+                <div class="time-period">
+                    <div class="date">
+                        <strong>15</strong>
+                        <p>JULIO</p>
+                    </div>
+                    <div class="date">
+                        <strong>12</strong>
+                        <p>AGOSTO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="teachers">
+            <h2>NUESTROS MENTORES</h2>
+            <p>Expertos con experiencia en ligas nacionales e internacionales.</p>
+            <div class="carousel">
+                <div class="card">
+                    <div class="photo">
+                        <div class="photo-bg"></div>
+                        <strong>ENTRENADOR JEFE</strong>
+                    </div>
+                    <div class="description">
+                        <h3>Oscar Manuel Mendoza Vargas</h3>
+                        <strong>ESPECIALISTA EN ENTRENAMIENTO FÍSICO</strong>
+                        <p>
+                            Especialista en fundamentos individuales y desarrollo de talento
+                            joven.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="join-us">
+            <div>
+                <h2>¿ESTÁS LISTO PARA SUBIR DE NIVEL?</h2>
+                <p>
+                    Únete a InterCECA y entrena con nosotros. Inscripciones abiertas
+                    para el nuevo trimestre.
+                </p>
+            </div>
+            <a href="#">ÚNETE HOY MISMO</a>
         </section>
     </main>
     <footer>
@@ -51,7 +160,9 @@
                     Impulsando el futuro del baloncesto con pasión, técnica y valores.
                     Formamos atletas integrales para el mañana.
                 </p>
-                <button><iconify-icon icon="mdi:share-variant"></iconify-icon></button>
+                <button>
+                    <iconify-icon icon="mdi:share-variant"></iconify-icon>
+                </button>
                 <button><iconify-icon icon="mdi:envelope"></iconify-icon></button>
             </section>
             <section>
@@ -69,7 +180,8 @@
                     Calle Los Alisos 16 Manzana F Lote 16 Urbanización SANTA ROSA,
                     Cajamarca
                 </p>
-                <strong><iconify-icon icon="mdi:phone"></iconify-icon> +51 976 394 474</strong>
+                <strong><iconify-icon icon="mdi:phone"></iconify-icon> +51 976 394
+                    474</strong>
             </section>
             <section>
                 <h4>NUESTRAS REDES</h4>
@@ -80,7 +192,7 @@
                 </div>
             </section>
         </div>
-        <hr>
+        <hr />
         <div class="copy">
             <small>&copy; 2026 Academias Deportivas InterCECA - Cajamarca</small>
         </div>
