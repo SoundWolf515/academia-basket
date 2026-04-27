@@ -61,6 +61,11 @@ h1 strong{
     color: #d8d8d8;
 }
 
+.hero .options{
+    display: flex;
+    gap: 1rem;
+}
+
 .hero a{
     font-family: 'Lexend';
     font-weight: 600;
@@ -86,6 +91,14 @@ h1 strong{
     box-shadow: 
         0 8px 25px rgba(0, 0, 0, 0.25),
         0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.hero .login{
+    background-color: #E66E2B;
+}
+
+.hero .login:hover{
+    background-color: #000767;
 }
 
 /*   ===PHILOSOPHY===   */
@@ -179,7 +192,7 @@ h1 strong{
     color: #4D5A99;
 }
 
-.programs strong{
+.programs p{
     font-family: 'Lexend';
     font-weight: 400;
     color: #351000;
